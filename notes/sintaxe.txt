@@ -1,0 +1,15 @@
+-   FABs são botões fixos na tela do usuário, que mesmo que a tela seja scrollada, ele permanece no mesmo local.
+    EXEMPLO:
+        <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+            <ion-fab-button>
+                <ion-icon name="settings"></ion-icon>
+            </ion-fab-button>
+        </ion-fab>
+
+    <ion-fab> é onde o botão e a imagem do botão ficarão armazenados.
+    
+    <ion-fab-button> é o botão em si, que será clicado pelo usuário.
+    
+    <ion-icon> é o ícone que o botão terá, sua imagem para resumir, no exemplo acima está "settings", então irá aparecer uma engrenagem, 
+    representando configurações. Existem outros ícones, os principais são: add, arrow-dropleft, arrow-dropright, arrow-dropup, share, person,
+    settings, logo-vimeo, logo-facebook, logo-instagram, logo-twitter.
